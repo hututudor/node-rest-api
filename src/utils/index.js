@@ -1,4 +1,5 @@
 module.exports = {
-  hash: require('./hash'),
-  message: require('./message')
+  validate: require('./validate'),
+  message: require('./message'),
+  Hash: require('./hash')
 };

@@ -1,7 +1,5 @@
-const message = value => {
+module.exports = message => {
   return {
-    message: value
+    message
   };
 };
-
-module.exports = message;
